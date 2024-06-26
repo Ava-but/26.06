@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    height: 300vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+html { scroll-behavior: smooth; -webkit-scroll-behavior: smooth }
+
+section {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.page-header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    background-color: skyblue;
+    outline: solid black;
+}
+
+#providers,
+#operations,
+#Leadership,
+#top {
+    margin-top: 700px;
+    min-height: 80px;
+    background-color: skyblue;
+    outline: solid black;
+    width: 100%;
+}
+
+
+.arr{
+    background-image: url('./image_2024-03-04_17-09-19.png');
+   width: 30px;
+   height: 40px;
+   border-radius: 100px;
+  position: fixed;
+  margin-left: 1700px;
+ font-size: 50px;
+  margin-top: 850px;
+  color: white;
+}
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+   }
+   
+   .menu-item {
+    position: relative;
+    margin-right: 15px;
+    outline: 2px solid tomato;
+   }
+   
+   .menu-item:hover .submenu {
+    display: block;
+   }
+   
+   .menu-item:hover .menu-link {
+    background-color: palevioletred;
+   }
+   
+   .menu-link {
+    display: block;
+   padding: 10px 20px;
+   text-decoration: none;
+   background-color: teal;
+   color: white;
+   }
+   
+   .submenu {
+   position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+   padding: 10px;
+    background-color: #ccc;
+    display: none;
+   }
+   
+   .submenu a {
+   text-decoration: none;
+   }
+
+
+   body {
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  
+  .holder {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .textBox {
+    width: 140px;
+    height: 100px;
+    border: dotted 1px;
+    float: left;
+    margin:10px;
+  }
+  
+  .exemple {
+    overflow: hidden;
+    min-height: 200px;
+  }
+  
+  /*   С М О Т Р И М    С Ю Д А   */
+  
+  .hidden {
+    overflow: hidden;
+  }
+  .visible {
+    overflow: visible;
+  }
+  .scroll {
+    overflow: scroll;
+  }
+  .auto {
+    overflow: auto;
+  }
+  
+  .rule {
+    padding-top: 50px;
+  }
+  .rule em {
+    display: inline-block;
+    width: 150px;
+    color: #009;
+    font-weight: bold;
+  }
